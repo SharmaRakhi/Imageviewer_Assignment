@@ -3,9 +3,9 @@ import ImageData from './ImageData';
 import "./img.css";
 
 export default function Images() {
-    const [img,setImgae] = useState(ImageData[0].url);
+    const [img,setImage] = useState(ImageData[0].url);
     function fun(e){
-        setImgae(e.target.src);
+        setImage(e.target.src);
     }
     return (
         <div className='main'>
